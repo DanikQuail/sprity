@@ -43,6 +43,7 @@ public class Main {
 
 
             ctverecek.render();
+            ctverecek.update(window);
 
             GLFW.glfwSwapBuffers(window);
 
